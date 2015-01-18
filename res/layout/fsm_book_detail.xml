@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:padding="10dp" >
+    
+    <ImageView
+        android:id="@+id/bookCover"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal"
+        android:clickable="false"
+        android:maxHeight="300dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="20dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/book_downloading" />
+
+    <TextView
+        android:id="@+id/bookTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="10dp"
+        android:text="Book Name"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/bookDescription"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="10dp"
+        android:text="Description"
+        android:textColor="#6c6c6c" />
+
+        <TextView
+            android:id="@+id/bookStatus"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textColor="#025371"
+            android:textSize="16dp" />
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" >
+
+	    <Button
+	        android:id="@+id/btnAdd"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:text="@string/book_add_to_bookshelf"
+	        android:onClick="addBook" />
+	
+		<Button
+	        android:id="@+id/btnDownload"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:text="@string/book_download"
+	        android:onClick="downloadBook" />
+		
+	    <Button
+	        android:id="@+id/btnDelete"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:text="@string/book_delete"
+	        android:onClick="deleteBook" />
+	    
+	    <Button
+	        android:id="@+id/btnOpen"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:text="@string/book_open"
+	        android:onClick="openBook" />
+		<!--
+	    <Button
+	        android:id="@+id/btnLogin"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:text="@string/menu_login"
+	        android:visibility="gone"
+	        android:onClick="login" />
+		-->    
+	</LinearLayout>
+</LinearLayout>	
+</ScrollView>

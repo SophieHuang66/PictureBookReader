@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".WebViewActivity" >
+
+    <view
+        class="com.fsm.storybook.launcher.EpubWebView"
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/navigation"
+        android:padding="10dp" />
+
+    <!--view
+        class="com.fsm.storybook.launcher.EpubWebView"
+        android:id="@+id/webview_hidden"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:visibility="invisible"
+        android:layout_above="@+id/navigation"
+        android:padding="10dp" /-->
+    
+    <LinearLayout
+        android:id="@+id/navigation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+    
+    
+        <SeekBar
+            android:id="@+id/page_slider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             />
+
+	    <TextView
+	        android:id="@+id/page_info"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_horizontal"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+
+</RelativeLayout>

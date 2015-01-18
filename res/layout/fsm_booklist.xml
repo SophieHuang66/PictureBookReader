@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" 
+    android:background="#ffffff"
+    android:orientation="horizontal" >
+    
+    <!-- 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_bookshelf"
+            android:onClick="gotoBookshelf" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/menu_searchhint"
+            android:text="" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_search" />
+
+    </LinearLayout>
+ 	-->
+
+<!-- 
+    <ListView
+        android:id="@+id/containerList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fastScrollEnabled="true">
+    </ListView>
+-->
+
+<GridView
+    android:id="@+id/containerList"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnWidth="240dp"
+    android:numColumns="auto_fit"
+    android:verticalSpacing="20dp"
+    android:horizontalSpacing="10dp"
+    android:stretchMode="columnWidth"
+    android:gravity="center"
+/>
+
+</LinearLayout>

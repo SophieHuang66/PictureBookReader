@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="unit_list_bg">#dbe6f7</color>
+    <color name="unit_item_selected">#78adfd</color>
+    <color name="highlight">#ffcc00</color>
+</resources>

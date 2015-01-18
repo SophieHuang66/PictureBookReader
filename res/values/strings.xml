@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">圓夢繪本</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_bookmark_prompt_placeholder">Name</string>
+    <string name="add_bookmark_prompt_title">Add Bookmark</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="delete_bookmark">Do you want to delete this bookmark?</string>
+    <string name="bookmarks_with_count">Bookmarks (%1$d)</string>
+    <string name="container_list_title">我的書櫃</string>
+    <string name="book_list_title">繪本清單</string>
+    <string name="book_detail_title">詳細資料</string>
+    <string name="generic_cancel">取消</string>
+    <string name="generic_ok">確定</string>
+    <string name="list_of_figures">List of Figures</string>
+    <string name="list_of_illustrations">List of Illustrations</string>
+    <string name="list_of_tables">List of Tables</string>
+    <string name="metadata">Metadata</string>
+    <string name="metadata_authors">Authors: %1$s</string>
+    <string name="metadata_copyright_owner">Copyright Owner: %1$s</string>
+    <string name="metadata_full_title">Full Title: %1$s</string>
+    <string name="metadata_isbn">ISBN: %1$s</string>
+    <string name="metadata_language">Language: %1$s</string>
+    <string name="metadata_modification_date">Modification Date: %1$s</string>
+    <string name="metadata_package_id">Package ID: %1$s</string>
+    <string name="metadata_source">Source: %1$s</string>
+    <string name="metadata_subjects">Subjects: %1$s</string>
+    <string name="metadata_subtitle">Subtitle: %1$s</string>
+    <string name="metadata_title">Title: %1$s</string>
+    <string name="page_list">Page List</string>
+    <string name="page_x_of_y">Page %1$d of %2$d</string>
+    <string name="page_calculating">正在計算頁數 : %1$d</string>
+    <string name="spine_items">Spine Items</string>
+    <string name="table_of_contents">Table of Contents</string>
+    <string name="title_activity_web_view">WebViewActivity</string>
+    <string name="add_bookmark">Add bookmark</string>
+    <string name="settings">Settings</string>
+    <string name="title">Title</string>
+    <string name="left">&lt;&lt;</string>
+    <string name="right">&gt;&gt;</string>
+    <!-- string name="fontSize">Font size (in %)</string -->
+    <string name="fontSize">字體大小 (%)</string>
+    <string name="columnGap">Column gap</string>
+    <!-- string name="syntheticSpread">Synthetic spread</string -->
+    <string name="syntheticSpread">跨頁效果</string>
+    
+    <!-- Media Overlay Menu Text -->
+    <string name="menu_mo_previous">Previous</string>
+    <string name="menu_mo_next">Next</string>
+    <string name="menu_mo_play">Play</string>
+    <string name="menu_mo_pause">Pause</string>
+    
+    <string name="menu_unit">圖書館</string>
+    <string name="menu_category">分類</string>
+    <string name="menu_toc">目錄</string>
+    <string name="menu_bookstore">書店</string>
+    <string name="menu_bookshelf">書櫃</string>
+    <string name="menu_searchhint">搜尋關鍵字</string>
+    <string name="menu_search">搜尋</string>
+    <string name="menu_login">登入</string>
+    <string name="menu_logout">登出</string>
+    <string name="menu_close">關閉</string>
+    <string name="menu_highlight">標亮</string>
+    <string name="menu_bookmark">書籤</string>
+    <string name="menu_clear">取消</string>
+    <string name="menu_note">筆記</string>
+    
+    <string name="book_add_to_bookshelf">加入書櫃</string>
+    <string name="book_download">下載</string>
+    <string name="book_delete">刪除</string>
+    <string name="book_validate">驗證</string>
+    <string name="book_open">開啟閱讀</string>
+
+    <string name="info_author">作者：</string>
+    <string name="info_publisher">來源單位：</string>
+    <string name="info_publishtime">出版日期：</string>
+    <string name="info_expiretime">閱讀期限：</string>
+    <string name="info_progress">閱讀進度：%1$d%%</string>
+    
+    <string name="msg_calculate_page">正在計算頁數</string>
+    <string name="msg_fetch_booklist">正在下載書單</string>
+    <string name="msg_confirm_del">是否確定要刪除本書?</string>
+    <string name="msg_in_bookshelf">已加入書櫃</string>
+    <string name="msg_not_downloaded">尚未下載</string>
+    <string name="msg_downloading">下載中</string>
+    <string name="msg_bookshelf_empty">書櫃中還沒有任何書籍</string>
+    <string name="msg_login_process">登入中</string>
+    <string name="msg_validate_process">驗證中</string>
+    <string name="msg_download_progress_unknown">無法取得進度</string>
+    
+    <string name="login_userid">帳號</string>
+    <string name="login_password">密碼</string>
+    <string name="login_go">登入</string>
+    
+    <string name="err_ioexception">無法存取資料，請確認網路連線狀態</string>
+    <string name="err_jsonexception">回傳資料格式錯誤</string>
+    <string name="err_login">登入失敗</string>
+    <string name="err_validate">驗證失敗</string>
+    <string name="err_epubformat">錯誤的epub格式</string>
+    <string name="err_download">下載失敗</string>
+    
+</resources>
